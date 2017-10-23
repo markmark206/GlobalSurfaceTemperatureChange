@@ -4,7 +4,7 @@ set -e
 pip install virtualenv
 virtualenv $ENV_NAME
 source $ENV_NAME/bin/activate
-# pip install -r requirements.txt
+pip install -r requirements.txt
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
