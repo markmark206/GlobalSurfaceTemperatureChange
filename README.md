@@ -19,7 +19,7 @@ To run the notebook on your machine:
 ~/GlobalSurfaceTemperatureChange$ source gistemp_env/bin/activate
 ```
 
-3. Run `jupyter notebook`, open `Global Surface Temperature Trend (1880-present).ipynb` in the browser:
+3. Run `jupyter notebook`, open the notebook link in the browser, and navigate to `Global Surface Temperature Trend (1880-present).ipynb`:
 ```
 (gistemp_env) ~/GlobalSurfaceTemperatureChange$ jupyter notebook
 ...
