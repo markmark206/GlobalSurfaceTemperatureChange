@@ -1,8 +1,8 @@
 # Plotting Global Surface Temperature changes over time, 1880-present
 
-This is a demo / test jupyter notebook that plots NASA's Global Surface Temperature dataset.
+This is a demo Jupyter notebook ([Global Surface Temperature Trend (1880-present).ipynb]( https://github.com/markmark206/GlobalSurfaceTemperatureChange/blob/master/Global%20Surface%20Temperature%20Trend%20(1880-present).ipynb)) that plots NASA's Global Surface Temperature dataset.
 
-For more information on NASA Global Surface Temperature project, please see https://data.giss.nasa.gov/gistemp/
+For more information on NASA Global Surface Temperature project, please see <https://data.giss.nasa.gov/gistemp/>.
 
 To run the notebook on your machine:
 
@@ -11,13 +11,11 @@ To run the notebook on your machine:
 ~$ git clone git@github.com:markmark206/GlobalSurfaceTemperatureChange.git
 ```
 
-2. Setup and activate python virtual environment (assumes you have python 2.7, and `pip` installed):
+2. Setup and activate python virtual environment (assumes python 2.7 and `pip` are already installed):
 ```
 ~$ cd GlobalSurfaceTemperatureChange
 ~/GlobalSurfaceTemperatureChange$ ./setup.sh
 ...
-run 'source gistemp_env/bin/activate' to active your python virtual environment
-to exit the environment, run 'deactivate'
 ~/GlobalSurfaceTemperatureChange$ source gistemp_env/bin/activate
 ```
 
@@ -32,4 +30,3 @@ to exit the environment, run 'deactivate'
     to login with a token:
         http://localhost:8892/?token=33d44e319dceab12021b655d732cef4f3a8542402535b9e6
 ```
-
